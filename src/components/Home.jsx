@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function Home() {
-  const [isFolded, setIsFolded] = useState(true);
+  const [isFolded, setIsFolded] = useState(false);
 
   return (
     <div>
@@ -18,12 +18,12 @@ export default function Home() {
                 >
                     <h1 className="hover:animate-pulse ">{isFolded ? "[+]" : "[-]"}</h1>
                 </button>
-                <div className={(isFolded ? "hidden " : "") + "flex flex-col"}>
-                    <div className="hover:animate-pulse flex text-xl">
+                <div className={(isFolded ? "hidden " : "") + "flex flex-col mx-8 p-4 bg-[#272e33]"}>
+                    <div id="home" className="hover:animate-pulse flex text-xl">
                         <p>[H]</p>
                         <p className="hover:animate-pulse text-[#E69875]">ome</p>
                     </div>
-                    <div className="m-10">
+                    <div className="">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus deserunt dolores fugiat et necessitatibus, illo nostrum reprehenderit aliquam magnam praesentium sequi explicabo dignissimos placeat iure, numquam consectetur a. Omnis, rerum?</p>
                     </div>
                 </div>
