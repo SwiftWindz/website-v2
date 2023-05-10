@@ -15,12 +15,12 @@ export default function NavBar() {
           </a>
         </button>
         <button className="hover:animate-pulse flex">
-          <p>[B]</p>
-          <li className="hover:animate-pulse text-[#A7C080]">log</li>
+          <p>[T]</p>
+          <li className="text-[#A7C080]">imeline</li>
         </button>
         <button className="hover:animate-pulse flex">
-          <p>[T]</p>
-          <li className="text-[#7FBBB3]">imeline</li>
+          <p>[B]</p>
+          <li className="hover:animate-pulse text-[#7FBBB3]">log</li>
         </button>
         <button className="hover:animate-pulse flex">
           <p>[C]</p>

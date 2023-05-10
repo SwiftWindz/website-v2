@@ -10,18 +10,19 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="font-code h-screen w-screen bg-[#1e2326] text-white flex flex-col">
-      <Heads></Heads>
-      <NavBar></NavBar>
-      <div>
-        <About></About>
-        <Experience></Experience>
-        <Blog></Blog>
-        <Contact></Contact>
+    <div className="container h-screen flex flex-col">
+      <div className=" font-code h-full w-full bg-[#1e2326] text-white flex flex-col">
+        <Heads></Heads>
+        <NavBar></NavBar>
+        <div className="flex-grow">
+          <About></About>
+          <Experience></Experience>
+          <Blog></Blog>
+          <Contact></Contact>
+        </div>
+        <Cmd></Cmd>
       </div>
-      <Cmd></Cmd>
     </div>
-
   );
 }
 

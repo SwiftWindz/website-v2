@@ -1,10 +1,9 @@
 import React from "react";
 
 export default function Cmd() {
-
   const parseInput = (input) => {
     switch (input) {
-      default: 
+      default:
     }
   };
 
@@ -16,7 +15,7 @@ export default function Cmd() {
         onKeyDown={(e) => {
           if (e.key === "Enter") {
             parseInput(e.target.value);
-            e.target.value = ""
+            e.target.value = "";
           }
         }}
       />
