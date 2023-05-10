@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React, { useState } from 'react'
 
-export default function Home() {
-  const [isFolded, setIsFolded] = useState(false);
+export default function Contact() {
+    const [isFolded, setIsFolded] = useState(false);
 
   return (
     <div>
       <div className="w-screen flex flex-row mt-4">
-        <div className="md:w-[20%] border">
-          <h1 className="">1</h1>
+        <div className="md:w-[20%]">
+
         </div>
 
         <div className=" md:w-[60%] flex-row">
@@ -22,8 +22,8 @@ export default function Home() {
               </h1>
             </button>
             <div id="home" className="hover:animate-pulse flex text-xl">
-              <p>[H]</p>
-              <p className="hover:animate-pulse text-[#E69875]">ome</p>
+              <p>[C]</p>
+              <p className="hover:animate-pulse text-[#83C092]">ontact</p>
             </div>
           </div>
           <div
@@ -42,10 +42,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className=" md:w-[20%] border">
-          <h1>3</h1>
+        <div className=" md:w-[20%] ">
         </div>
       </div>
-    </div>
-  );
+    </div>  
+    )
 }
