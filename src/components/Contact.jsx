@@ -4,10 +4,8 @@ export default function Contact() {
   const [isFolded, setIsFolded] = useState(false);
 
   return (
-    <div className="w-screen flex flex-row mt-4">
-      <div className="md:w-[20%]"></div>
-
-      <div className=" md:w-[60%] flex-row">
+    <div className="flex flex-row">
+      <div className="flex-row">
         <div className="flex">
           <button
             onClick={() => {
@@ -23,7 +21,7 @@ export default function Contact() {
         </div>
         <div
           className={
-            (isFolded ? "hidden " : "") + "flex flex-col bg-[#272e33] mt-1"
+            (isFolded ? "hidden " : "") + "flex flex-col bg-[#272e33] mt-1 w-full"
           }
         >
           <div className="m-2">
@@ -32,8 +30,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-
-      <div className=" md:w-[20%] "></div>
     </div>
   );
 }

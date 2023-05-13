@@ -8,7 +8,7 @@ export default function Cmd() {
   };
 
   return (
-    <div className="bg-black bottom-0 absolute w-full">
+    <div className="bg-black w-full">
       <input
         type="text"
         className="bg-black w-full outline-none"

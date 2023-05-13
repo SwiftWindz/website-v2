@@ -4,10 +4,9 @@ export default function About() {
   const [isFolded, setIsFolded] = useState(false);
 
   return (
-    <div className="w-screen flex flex-row mt-4">
-      <div className="md:w-[20%] ">{/* <h1 className="">1</h1> */}</div>
+    <div className=" flex flex-row">
 
-      <div className=" md:w-[60%] flex-row">
+      <div className="flex-row">
         <div className="flex">
           <button
             onClick={() => {
@@ -42,8 +41,6 @@ export default function About() {
           </div>
         </div>
       </div>
-
-      <div className=" md:w-[20%] "></div>
     </div>
   );
 }
