@@ -15,7 +15,7 @@ function App() {
         <NavBar></NavBar>
       </div>
       <div className=" space-y-6 h-full">
-        <div className="lg:mx-40 space-y-6 pb-8 pt-4">
+        <div className="mx-4 lg:mx-60 space-y-6 pb-8 pt-4">
           <About></About>
           <Experience></Experience>
           <Blog></Blog>

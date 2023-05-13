@@ -1,11 +1,12 @@
 import React, { useState } from "react";
+import TimelineElement from "./TimelineElement";
 
 export default function Experience() {
   const [isFolded, setIsFolded] = useState(false);
 
   return (
     <div className=" flex flex-row">
-      <div className="flex-row">
+      <div className="flex-row w-full">
         <div className="flex">
           <button
             onClick={() => {
@@ -25,24 +26,35 @@ export default function Experience() {
           }
         >
           <div className="m-2">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repellendus deserunt dolores fugiat et necessitatibus, illo
-              nostrum reprehenderit aliquam magnam praesentium sequi explicabo
-              dignissimos placeat iure, numquam consectetur a. Omnis, rerum?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              officiis eveniet, repellendus sit numquam sapiente dolorum atque,
-              incidunt velit totam tenetur est asperiores explicabo libero. Eius
-              veniam itaque, eos magnam, cum facilis aperiam rerum dolore
-              recusandae veritatis ab error iste quae cupiditate harum? Aut
-              tempora beatae culpa fuga, doloribus accusantium sint non a
-              possimus suscipit laudantium facilis repudiandae asperiores eaque
-              amet est velit nobis autem quo consequatur sequi necessitatibus?
-              Praesentium, quis obcaecati sed, tempora doloremque incidunt
-              aliquam quae debitis et corrupti veritatis omnis saepe excepturi
-              quasi quidem perspiciatis vel, sapiente corporis dolorum. Deserunt
-              ducimus recusandae, sed eius commodi vero reprehenderit.
-            </p>
+            <ol class="border-l border-neutral-300 dark:border-neutral-500">
+            <TimelineElement
+                date={"Feb 2023"}
+                title={"Got my First Pet, Tangerine the Gecko"}
+                description={"Test"}
+              ></TimelineElement>
+              <TimelineElement
+                date={"Jan 2023"}
+                title={"Started my First University Co-op with Measures for Justice"}
+                description={"Test"}
+              ></TimelineElement>
+              <TimelineElement
+                date={"Aug 2022"}
+                title={"Got my first Apartment in NY"}
+                description={"Test"}
+              ></TimelineElement>
+              <TimelineElement
+                date={"Aug 2021"}
+                title={"Became an RIT Course Assistant"}
+                description={""}
+              ></TimelineElement>
+              <TimelineElement
+                date={"Aug 2020"}
+                title={"Started University"}
+                description={
+                  "The beginning of my five year journey at the Rochester Institute of Technology"
+                }
+              ></TimelineElement>
+            </ol>
           </div>
         </div>
       </div>

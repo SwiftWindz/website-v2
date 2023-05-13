@@ -5,8 +5,7 @@ export default function About() {
 
   return (
     <div className=" flex flex-row">
-
-      <div className="flex-row">
+      <div className="flex-row w-full">
         <div className="flex">
           <button
             onClick={() => {

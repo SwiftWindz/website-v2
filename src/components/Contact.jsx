@@ -5,7 +5,7 @@ export default function Contact() {
 
   return (
     <div className="flex flex-row">
-      <div className="flex-row">
+      <div className="flex-row w-full">
         <div className="flex">
           <button
             onClick={() => {
@@ -24,7 +24,7 @@ export default function Contact() {
             (isFolded ? "hidden " : "") + "flex flex-col bg-[#272e33] mt-1 w-full"
           }
         >
-          <div className="m-2">
+          <div className="m-2 ">
             <h2>[E]mail</h2>
             <h3>philipganem@gmail.com</h3>
           </div>
