@@ -28,30 +28,69 @@ export default function Experience() {
           <div className="m-2">
             <ol class="border-l border-neutral-300 dark:border-neutral-500">
             <TimelineElement
+                date={"Mar 2023"}
+                title={
+                  <h4 className="mb-1.5 text-xl font-semibold">
+                    Started Attending a Music School for Night Lessons
+                  </h4>
+                }
+                description={<p className="mb-3 text-[#414B50]">test</p>}
+              ></TimelineElement>
+              <TimelineElement
                 date={"Feb 2023"}
-                title={"Got my First Pet, Tangerine the Gecko"}
-                description={"Test"}
+                title={
+                  <h4 className="mb-1.5 text-xl font-semibold">
+                    Got my First Pet, <a href="/tan.jpeg" className="text-[#D699b6] font-bold hover:opacity-50">Tangerine the Gecko</a>
+                  </h4>
+                }
+                description={<p className="mb-3 text-[#414B50]">test</p>}
               ></TimelineElement>
               <TimelineElement
                 date={"Jan 2023"}
-                title={"Started my First University Co-op with Measures for Justice"}
-                description={"Test"}
+                title={
+                  <h4 className="mb-1.5 text-xl font-semibold">
+                    Started my First University Co-op with{" "}
+                    <a
+                      href="https://measuresforjustice.org/"
+                      className="text-[#D699b6] font-bold hover:opacity-50"
+                    >
+                      Measures for Justice
+                    </a>
+                  </h4>
+                }
+                description={<p className="mb-3 text-[#414B50]">test</p>}
               ></TimelineElement>
               <TimelineElement
                 date={"Aug 2022"}
-                title={"Got my first Apartment in NY"}
-                description={"Test"}
+                title={
+                  <h4 className="mb-1.5 text-xl font-semibold">
+                    Got my first Apartment in NY
+                  </h4>
+                }
+                description={<p className="mb-3 text-[#414B50]">test</p>}
               ></TimelineElement>
               <TimelineElement
                 date={"Aug 2021"}
-                title={"Became an RIT Course Assistant"}
-                description={""}
+                title={
+                  <h4 className="mb-1.5 text-xl font-semibold">
+                    Became an RIT Course Assistant
+                  </h4>
+                }
+                description={<p className="mb-3 text-[#414B50]">test</p>}
               ></TimelineElement>
+
               <TimelineElement
                 date={"Aug 2020"}
-                title={"Started University"}
+                title={
+                  <h4 className="mb-1.5 text-xl font-semibold">
+                    Started University
+                  </h4>
+                }
                 description={
-                  "The beginning of my five year journey at the Rochester Institute of Technology"
+                  <p className="mb-3 text-[#414B50]">
+                    The beginning of my five year journey at the Rochester
+                    Institute of Technology
+                  </p>
                 }
               ></TimelineElement>
             </ol>

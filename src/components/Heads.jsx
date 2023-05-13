@@ -3,7 +3,7 @@ import React from "react";
 export default function Heads() {
   return (
     <div className="pt-6 text-center">
-      <h1 className="text-3xl">Phil Ganem</h1>
+      <h1 className="text-3xl font-bold">Phil Ganem</h1>
       <div className="text-xl flex justify-center">
         <h2>Software Engineer/</h2>
         <h2

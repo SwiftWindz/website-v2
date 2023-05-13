@@ -8,7 +8,7 @@ export default function TimelineElement(props) {
         <p className="text-sm">{props.date}</p>
       </div>
       <div className="mb-6 ml-4 mt-2">
-        <h4 className="mb-1.5 text-xl font-semibold">{props.title}</h4>
+        {props.title}
         <p className="mb-3 text-[#414B50]">{props.description}</p>
       </div>
     </li>
