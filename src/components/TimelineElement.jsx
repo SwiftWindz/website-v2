@@ -9,7 +9,7 @@ export default function TimelineElement(props) {
       </div>
       <div className="mb-6 ml-4 mt-2">
         {props.title}
-        <p className="mb-3 text-[#414B50]">{props.description}</p>
+        <p className="mb-3 text-[#414B50] italic">{props.description}</p>
       </div>
     </li>
   );

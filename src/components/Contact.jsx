@@ -26,9 +26,9 @@ export default function Contact() {
         >
           <div className="m-2 ">
             <h2>Email</h2>
-            <h3 className="text-[#414B50]">philipganem@gmail.com</h3>
+            <h3 className="text-[#414B50] italic">philipganem@gmail.com</h3>
             <h2>LinkedIn</h2>
-            <h3 className="text-[#414B50]">/in/phil-ganem/</h3>
+            <h3 className="text-[#414B50] italic">/in/phil-ganem/</h3>
           </div>
         </div>
       </div>

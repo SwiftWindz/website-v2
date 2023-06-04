@@ -25,7 +25,7 @@ export default function Stats() {
           }
         >
           <div className="flex flex-col justify-end">
-            <div className="m-2 overflow-x-scroll flex flex-row ">
+            <div className="m-2 overflow-x-scroll flex flex-row justify-center md:justify-start">
               <div className="flex flex-col p-2 justify-end">
                 <div>
                   {/* Books */}

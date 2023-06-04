@@ -21,12 +21,17 @@ function App() {
           <Heads></Heads>
           <NavBar></NavBar>
         </div>
-        <div className=" space-y-6 h-full w-full">
-          <div className="mx-4 space-y-6 pb-8 pt-4">
-            <About></About>
-            <Stats></Stats>
-            <Experience></Experience>
-            <Contact></Contact>
+        <div className="space-y-6 h-full w-full">
+          <div className="mx-4 pb-4">
+            <div id="home" className="flex text-2xl md:text-3xl justify-center md:justify-start pt-4">
+              <h2 className="font-bold">Character Sheet</h2>
+            </div>
+            <div className="space-y-4 py-4">
+              <About></About>
+              <Stats></Stats>
+              <Experience></Experience>
+              <Contact></Contact>
+            </div>
           </div>
         </div>
       </div>

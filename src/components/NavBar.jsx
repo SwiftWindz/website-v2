@@ -5,8 +5,10 @@ export default function NavBar() {
     <div className="w-full mt-2">
       <ul className="flex justify-center w-full space-x-4 text-sm md:text-base">
         <button className="hover:animate-pulse flex">
-          <p>[H]</p>
-          <li className="hover:animate-pulse text-[#E69875]">ome</li>
+          <a href="#Home" className="flex">
+            <p>[H]</p>
+            <li className="hover:animate-pulse text-[#E69875]">ome</li>
+          </a>
         </button>
         <button className="hover:animate-pulse">
           <a href="#About" className="flex">
@@ -15,16 +17,22 @@ export default function NavBar() {
           </a>
         </button>
         <button className="hover:animate-pulse flex">
-          <p>[S]</p>
-          <li className="hover:animate-pulse text-[#7FBBB3]">tats</li>
+          <a href="#Stats" className="flex">
+            <p>[S]</p>
+            <li className="hover:animate-pulse text-[#7FBBB3]">tats</li>
+          </a>
         </button>
         <button className="hover:animate-pulse flex">
-          <p>[T]</p>
-          <li className="text-[#A7C080]">imeline</li>
+          <a href="#Timeline" className="flex">
+            <p>[T]</p>
+            <li className="text-[#A7C080]">imeline</li>
+          </a>
         </button>
         <button className="hover:animate-pulse flex">
-          <p>[C]</p>
-          <li className="text-[#83C092]">ontact</li>
+          <a href="#Contact" className="flex">
+            <p>[C]</p>
+            <li className="text-[#83C092]">ontact</li>
+          </a>
         </button>
       </ul>
     </div>
