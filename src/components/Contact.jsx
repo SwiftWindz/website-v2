@@ -4,9 +4,9 @@ export default function Contact() {
   const [isFolded, setIsFolded] = useState(false);
 
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-row w-full">
       <div className="flex-row w-full">
-        <div className="flex">
+        <div className="flex w-full">
           <button
             onClick={() => {
               setIsFolded(!isFolded);
@@ -25,8 +25,10 @@ export default function Contact() {
           }
         >
           <div className="m-2 ">
-            <h2>[E]mail</h2>
-            <h3>philipganem@gmail.com</h3>
+            <h2>Email</h2>
+            <h3 className="text-[#414B50]">philipganem@gmail.com</h3>
+            <h2>LinkedIn</h2>
+            <h3 className="text-[#414B50]">/in/phil-ganem/</h3>
           </div>
         </div>
       </div>

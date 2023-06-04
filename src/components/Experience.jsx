@@ -17,7 +17,7 @@ export default function Experience() {
           </button>
           <div id="home" className="hover:animate-pulse flex text-xl">
             <p>[T]</p>
-            <p className="hover:animate-pulse text-[#7FBBB3]">imeline</p>
+            <p className="hover:animate-pulse text-[#A7C080]">imeline</p>
           </div>
         </div>
         <div
@@ -27,23 +27,34 @@ export default function Experience() {
         >
           <div className="m-2">
             <ol class="border-l border-neutral-300 dark:border-neutral-500">
-            <TimelineElement
+              <TimelineElement
                 date={"Mar 2023"}
                 title={
                   <h4 className="mb-1.5 text-xl font-semibold">
                     Started Attending a Music School for Night Lessons
                   </h4>
                 }
-                description={<p className="mb-3 text-[#414B50]">test</p>}
+                description={
+                  <p className="mb-3 text-[#414B50]">
+                    With the free time co-op allowed me, I started taking pm
+                    guitar lessons at a local Rochester music school
+                  </p>
+                }
               ></TimelineElement>
               <TimelineElement
                 date={"Feb 2023"}
                 title={
                   <h4 className="mb-1.5 text-xl font-semibold">
-                    Got my First Pet, <a href="/tan.jpeg" className="text-[#D699b6] font-bold hover:opacity-50">Tangerine the Gecko</a>
+                    Got my First Pet,{" "}
+                    <a
+                      href="/tan.jpeg"
+                      className="text-[#D699b6] font-bold hover:opacity-50"
+                    >
+                      Tangerine the Crested Gecko
+                    </a>
                   </h4>
                 }
-                description={<p className="mb-3 text-[#414B50]">test</p>}
+                description={""}
               ></TimelineElement>
               <TimelineElement
                 date={"Jan 2023"}
@@ -58,7 +69,15 @@ export default function Experience() {
                     </a>
                   </h4>
                 }
-                description={<p className="mb-3 text-[#414B50]">test</p>}
+                description={
+                  <p className="mb-3 text-[#414B50]">
+                    For my first university co-op (academic internship) I was
+                    employed by Measures for Justice as a software engineer
+                    intern. The organisation was a local nonprofit that had
+                    nation reach. Their objective was to make criminal justice
+                    data more accessable and understandle.
+                  </p>
+                }
               ></TimelineElement>
               <TimelineElement
                 date={"Aug 2022"}
@@ -67,7 +86,7 @@ export default function Experience() {
                     Got my first Apartment in NY
                   </h4>
                 }
-                description={<p className="mb-3 text-[#414B50]">test</p>}
+                description={""}
               ></TimelineElement>
               <TimelineElement
                 date={"Aug 2021"}
@@ -76,7 +95,13 @@ export default function Experience() {
                     Became an RIT Course Assistant
                   </h4>
                 }
-                description={<p className="mb-3 text-[#414B50]">test</p>}
+                description={
+                  <p className="mb-3 text-[#414B50]">
+                    Became employed by my university as a course assistant for
+                    the university intro programming courses, GCIS-123 and
+                    GCIS-124
+                  </p>
+                }
               ></TimelineElement>
 
               <TimelineElement

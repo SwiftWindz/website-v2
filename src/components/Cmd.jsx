@@ -12,6 +12,7 @@ export default function Cmd() {
       <input
         type="text"
         className="bg-black w-full outline-none"
+        placeholder="Input a command..."
         onKeyDown={(e) => {
           if (e.key === "Enter") {
             parseInput(e.target.value);
