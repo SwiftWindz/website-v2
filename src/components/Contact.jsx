@@ -4,7 +4,7 @@ export default function Contact() {
   const [isFolded, setIsFolded] = useState(false);
 
   return (
-    <div className="flex flex-row w-full">
+    <div id="contact" className="flex flex-row w-full">
       <div className="flex-row w-full">
         <div className="flex w-full">
           <button
@@ -26,9 +26,9 @@ export default function Contact() {
         >
           <div className="m-2 ">
             <h2>Email</h2>
-            <h3 className="text-[#414B50] italic">philipganem@gmail.com</h3>
+            <a href="mailto:philipganem@gmail.com"><h3 className="text-[#D699b6] hover:opacity-50 italic">philipganem@gmail.com</h3></a>
             <h2>LinkedIn</h2>
-            <h3 className="text-[#414B50] italic">/in/phil-ganem/</h3>
+            <a href="https://www.linkedin.com/in/phil-ganem/"><h3 className="text-[#D699b6] hover:opacity-50 italic">/in/phil-ganem/</h3></a>
           </div>
         </div>
       </div>

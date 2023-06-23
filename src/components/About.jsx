@@ -4,7 +4,7 @@ export default function About() {
   const [isFolded, setIsFolded] = useState(false);
 
   return (
-    <div className=" flex flex-row">
+    <div id="about" className=" flex flex-row">
       <div className="flex-row w-full">
         <div className="flex">
           <button

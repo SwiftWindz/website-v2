@@ -5,7 +5,7 @@ export default function Experience() {
   const [isFolded, setIsFolded] = useState(false);
 
   return (
-    <div className=" flex flex-row">
+    <div id="timeline" className=" flex flex-row">
       <div className="flex-row w-full">
         <div className="flex">
           <button

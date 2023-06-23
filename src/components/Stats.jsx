@@ -4,7 +4,7 @@ export default function Stats() {
   const [isFolded, setIsFolded] = useState(false);
 
   return (
-    <div className=" flex flex-row">
+    <div id="stats" className=" flex flex-row">
       <div className="flex-row w-full">
         <div className="flex">
           <button

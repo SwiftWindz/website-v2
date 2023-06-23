@@ -4,7 +4,7 @@ export default function Home() {
   const [isFolded, setIsFolded] = useState(false);
 
   return (
-    <div className=" flex flex-row">
+    <div id="home" className=" flex flex-row">
       <div className="md:w-[20%] border">
         <h1 className="">1</h1>
       </div>
