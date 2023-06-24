@@ -39,8 +39,8 @@ export default function About() {
             </p>
             <p>
               When I'm not working or studying, I typically find myself outside,
-              reading, playing videogames, making music, hanging out with my girlfriend, or
-              taking photos of{" "}
+              reading, playing videogames, making music, hanging out with my
+              girlfriend, or taking photos of{" "}
               <a
                 href="/tan.jpeg"
                 className="text-[#D699b6] font-bold hover:opacity-50"

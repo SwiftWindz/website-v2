@@ -28,17 +28,15 @@ export default function Experience() {
           <div className="m-2">
             <ol class="border-l border-neutral-300 dark:border-neutral-500">
               <TimelineElement
-                  date={"Jun 2023 - present"}
-                  title={
-                    <h4 className="mb-1.5 text-xl font-semibold">
-                      Promoted to Head Undergraduate Teaching Assistant at RIT
-                    </h4>
-                  }
-                  description={
-                    <p className="mb-3 text-[#414B50]">
-                    </p>
-                  }
-                ></TimelineElement>
+                date={"Jun 2023 - present"}
+                title={
+                  <h4 className="mb-1.5 text-xl font-semibold">
+                    Promoted to Head Undergraduate Teaching Assistant at the
+                    Rochester Institute of Technology
+                  </h4>
+                }
+                description={<p className="mb-3 text-[#414B50]"></p>}
+              ></TimelineElement>
               <TimelineElement
                 date={"Jan 2023 - present"}
                 title={
@@ -54,11 +52,11 @@ export default function Experience() {
                 }
                 description={
                   <p className="mb-3 text-[#414B50]">
-                    For my first university co-op I was
-                    employed by Measures for Justice as a software engineer
-                    intern. The organisation was a local nonprofit that had
-                    nation reach. Their objective was to make criminal justice
-                    data more accessable and understandle.
+                    For my first university co-op I was employed by Measures for
+                    Justice as a software engineer intern. The organisation was
+                    a local nonprofit that had nation reach. Their objective was
+                    to make criminal justice data more accessable and
+                    understandle.
                   </p>
                 }
               ></TimelineElement>
@@ -66,19 +64,25 @@ export default function Experience() {
                 date={"Aug 2021 - Dec 2022"}
                 title={
                   <h4 className="mb-1.5 text-xl font-semibold">
-                    Became an Undergraduate Teaching Assistant at RIT
+                    Became an Undergraduate Teaching Assistant at the Rochester
+                    Institute of Technology
                   </h4>
                 }
                 description={
                   <p className="mb-3 text-[#414B50]">
-                    Became employed by my university as an undergraduate teaching assistant for
-                    the university intro programming courses, GCIS-123 and
-                    GCIS-124
+                    Became employed by my university as an undergraduate
+                    teaching assistant for the university intro programming
+                    courses, GCIS-123 and GCIS-124
                   </p>
                 }
               ></TimelineElement>
             </ol>
-              <a className="text-[#D699b6] font-bold hover:opacity-50" href="./Resume.pdf">View Full Résumé</a>
+            <a
+              className="text-[#D699b6] font-bold hover:opacity-50"
+              href="./Resume.pdf"
+            >
+              View Full Résumé
+            </a>
           </div>
         </div>
       </div>

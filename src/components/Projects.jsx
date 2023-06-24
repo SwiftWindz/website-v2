@@ -36,6 +36,20 @@ export default function Projects() {
               link=""
             ></Project>
             <Project
+              title="Data Element Catalog"
+              description=""
+              madeFor="Measures for Justice"
+              year="2023"
+              tech={[
+                "React",
+                "TailwindCSS",
+                "Kotlin",
+                "Java Spring",
+                "PostgreSQL",
+              ]}
+              link="https://www.linkedin.com/pulse/how-our-spring-2023-interns-documented"
+            ></Project>
+            <Project
               title="Cocktail Cabinet"
               description="Cocktail Cabinet is a web application where users can find their favorite cocktail recipes from CocktailDB and be directed to a place where they can obtain the ingredients. Users can also have the application select a random cocktail recipe for them to try."
               madeFor=""

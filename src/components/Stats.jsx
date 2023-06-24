@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import StatsElement from "./StatsElement";
 
 export default function Stats() {
   const [isFolded, setIsFolded] = useState(false);
@@ -24,92 +25,12 @@ export default function Stats() {
             (isFolded ? "hidden " : "") + "flex flex-col bg-[#272e33] mt-1"
           }
         >
-          <div className="flex flex-col justify-end">
+          <div className="flex flex-col justify-end text-xs md:text-base">
             <div className="m-2 overflow-x-scroll flex flex-row flex-wrap justify-center pt-2">
-              <div className="flex flex-col p-2 justify-end">
-                <div className="space-y-1">
-                  {/* Books */}
-                  <ul>
-                    <li className="w-full bg-gray-100 p-1 rounded-md"></li>
-                  </ul>
-                  <ul>
-                    <li className="w-full bg-gray-100 p-1 rounded-md"></li>
-                  </ul>
-                  <ul>
-                    <li className="w-full bg-gray-100 p-1 rounded-md"></li>
-                  </ul>
-                  <ul>
-                    <li className="w-full bg-gray-100 p-1 rounded-md"></li>
-                  </ul>
-                </div>
-                <h2>Books Read</h2>
-              </div>
-
-              <div className="flex flex-col p-2 justify-end">
-                <div className="space-y-1">
-                  {/* Books */}
-                  <ul>
-                    <li className="w-full bg-gray-100 p-1 rounded-md"></li>
-                  </ul>
-                  <ul>
-                    <li className="w-full bg-gray-100 p-1 rounded-md"></li>
-                  </ul>
-                  <ul>
-                    <li className="w-full bg-gray-100 p-1 rounded-md"></li>
-                  </ul>
-                </div>
-                <h2>Trips Taken</h2>
-              </div>
-
-              <div className="flex flex-col p-2 justify-end">
-                <div className="space-y-1">
-                  {/* Books */}
-                  <ul>
-                    <li className="w-full bg-gray-100 p-1 rounded-md"></li>
-                  </ul>
-                  <ul>
-                    <li className="w-full bg-gray-100 p-1 rounded-md"></li>
-                  </ul>
-                  <ul>
-                    <li className="w-full bg-gray-100 p-1 rounded-md"></li>
-                  </ul>
-                </div>
-                <h2>Dogs pet</h2>
-              </div>
-
-              <div className="flex flex-col p-2 justify-end">
-                <div className="space-y-1">
-                  {/* Books */}
-                  <ul>
-                    <li className="w-full bg-gray-100 p-1 rounded-md"></li>
-                  </ul>
-                  <ul>
-                    <li className="w-full bg-gray-100 p-1 rounded-md"></li>
-                  </ul>
-                  <ul>
-                    <li className="w-full bg-gray-100 p-1 rounded-md"></li>
-                  </ul>
-                  <ul>
-                    <li className="w-full bg-gray-100 p-1 rounded-md"></li>
-                  </ul>
-                  <ul>
-                    <li className="w-full bg-gray-100 p-1 rounded-md"></li>
-                  </ul>
-                  <ul>
-                    <li className="w-full bg-gray-100 p-1 rounded-md"></li>
-                  </ul>
-                  <ul>
-                    <li className="w-full bg-gray-100 p-1 rounded-md"></li>
-                  </ul>
-                  <ul>
-                    <li className="w-full bg-gray-100 p-1 rounded-md"></li>
-                  </ul>
-                  <ul>
-                    <li className="w-full bg-gray-100 p-1 rounded-md"></li>
-                  </ul>
-                </div>
-                <h2>Goblins Slain</h2>
-              </div>
+              <StatsElement title="Books Read" number={4}></StatsElement>
+              <StatsElement title="Trips Taken" number={3}></StatsElement>
+              <StatsElement title="Dogs Pet" number={3}></StatsElement>
+              <StatsElement title="Goblins Slain" number={9}></StatsElement>
             </div>
           </div>
         </div>

@@ -4,15 +4,12 @@ export default function Project(props) {
   const [isFolded, setIsFolded] = useState(true);
 
   const getTechElements = (tech) => {
-    const elements = []
-    for(var i = 0, size = tech.length; i < size ; i++){
-        elements.push(
-            <p className="text-xs md:text-base">/{tech[i]}/</p>
-        )
+    const elements = [];
+    for (var i = 0, size = tech.length; i < size; i++) {
+      elements.push(<p className="text-xs md:text-base">/{tech[i]}/</p>);
     }
-    return elements
-
-  }
+    return elements;
+  };
 
   return (
     <div id="projects" className="flex flex-row w-full">
@@ -40,12 +37,19 @@ export default function Project(props) {
           <div className="px-14">
             <p>Year: {props.year}</p>
             <p>Made for: {props.madeFor}</p>
-            <p className="mb-2 text-[#414B50] text-sm md:text-md">{props.description}</p>
+            <p className="mb-2 text-[#414B50] text-sm md:text-md">
+              {props.description}
+            </p>
             <p>Tools:</p>
             <div className="flex flex-row flex-wrap space-x-3">
-                {getTechElements(props.tech)}
+              {getTechElements(props.tech)}
             </div>
-            <a className="text-[#D699b6] font-bold hover:opacity-50 text-xs md:text-base" href={props.link}>{props.link}</a>
+            <a
+              className="text-[#D699b6] font-bold hover:opacity-50 text-xs md:text-base"
+              href={props.link}
+            >
+              {props.link}
+            </a>
           </div>
         </div>
       </div>

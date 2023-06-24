@@ -3,29 +3,29 @@ import React from "react";
 export default function Cmd() {
   const parseInput = (input) => {
     switch (input.toLowerCase().trim()) {
-      case "cd h" : {
-        window.location.href = '#home'
-        break
+      case "cd h": {
+        window.location.href = "#home";
+        break;
       }
-      case "cd a" : {
-        window.location.href = '#about'
-        break
+      case "cd a": {
+        window.location.href = "#about";
+        break;
       }
-      case "cd s" : {
-        window.location.href = '#stats'
-        break
+      case "cd s": {
+        window.location.href = "#stats";
+        break;
       }
-      case "cd e" : {
-        window.location.href = '#experience'
-        break
+      case "cd e": {
+        window.location.href = "#experience";
+        break;
       }
-      case "cd c" : {
-        window.location.href = '#contact'
-        break
+      case "cd c": {
+        window.location.href = "#contact";
+        break;
       }
-      case "cd p" : {
-        window.location.href = '#projects'
-        break
+      case "cd p": {
+        window.location.href = "#projects";
+        break;
       }
       default:
     }

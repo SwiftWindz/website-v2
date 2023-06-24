@@ -4,7 +4,6 @@ import Heads from "./components/Heads";
 import Cmd from "./components/Cmd";
 import Experience from "./components/Experience";
 import About from "./components/About";
-import Blog from "./components/Stats";
 import Contact from "./components/Contact";
 import Stats from "./components/Stats";
 import Projects from "./components/Projects";
@@ -13,10 +12,6 @@ function App() {
   return (
     <div className="computerScreen h-full w-screen font-code text-white overflow-y-auto">
       <div className="scanLines w-full h-full justify-center flex flex-row overflow-y-auto">
-        {/* <div className="hidden max-w-[15rem] sm:visible sm:flex-col sm:flex">
-        <img src={fire} alt="fire" className="w-10 h-10 "></img>
-      </div> */}
-
         <body className="flex flex-col max-w-[70rem] w-full">
           <div>
             <Heads></Heads>
@@ -40,11 +35,6 @@ function App() {
             </div>
           </div>
         </body>
-
-        {/* <div className="hidden max-w-[15rem] flex-wrap sm:visible sm:flex-col sm:flex">
-        <img src={fire} alt="fire" className="w-10 h-10"></img>
-      </div> */}
-
         <div className="fixed bottom-0 w-full">
           <Cmd></Cmd>
         </div>
