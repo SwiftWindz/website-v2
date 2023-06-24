@@ -15,12 +15,16 @@ export default function Cmd() {
         window.location.href = '#stats'
         break
       }
-      case "cd t" : {
-        window.location.href = '#timeline'
+      case "cd e" : {
+        window.location.href = '#experience'
         break
       }
       case "cd c" : {
         window.location.href = '#contact'
+        break
+      }
+      case "cd p" : {
+        window.location.href = '#projects'
         break
       }
       default:

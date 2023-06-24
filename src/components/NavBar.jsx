@@ -7,25 +7,31 @@ export default function NavBar() {
         <button className="hover:animate-pulse flex">
           <a href="#home" className="flex">
             <p>[H]</p>
-            <li className="hover:animate-pulse text-[#E69875]">ome</li>
+            <li className="hover:animate-pulse text-[#E67E90]">ome</li>
           </a>
         </button>
         <button className="hover:animate-pulse">
           <a href="#about" className="flex">
             <p>[A]</p>
-            <li className="hover:animate-pulse text-[#DBBC7F]">bout</li>
+            <li className="hover:animate-pulse text-[#E69875]">bout</li>
           </a>
         </button>
         <button className="hover:animate-pulse flex">
           <a href="#stats" className="flex">
             <p>[S]</p>
-            <li className="hover:animate-pulse text-[#7FBBB3]">tats</li>
+            <li className="hover:animate-pulse text-[#DBBC7F]">tats</li>
           </a>
         </button>
         <button className="hover:animate-pulse flex">
           <a href="#timeline" className="flex">
-            <p>[T]</p>
-            <li className="text-[#A7C080]">imeline</li>
+            <p>[E]</p>
+            <li className="text-[#A7C080]">xperience</li>
+          </a>
+        </button>
+        <button className="hover:animate-pulse flex">
+          <a href="#projects" className="flex">
+            <p>[P]</p>
+            <li className="hover:animate-pulse text-[#7FBBB3]">rojects</li>
           </a>
         </button>
         <button className="hover:animate-pulse flex">

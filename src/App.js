@@ -7,10 +7,11 @@ import About from "./components/About";
 import Blog from "./components/Stats";
 import Contact from "./components/Contact";
 import Stats from "./components/Stats";
+import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className="computerScreen h-screen w-screen font-code text-white overflow-y-auto">
+    <div className="computerScreen h-full w-screen font-code text-white overflow-y-auto">
       <div className="scanLines w-full h-full justify-center flex flex-row overflow-y-auto">
         {/* <div className="hidden max-w-[15rem] sm:visible sm:flex-col sm:flex">
         <img src={fire} alt="fire" className="w-10 h-10 "></img>
@@ -27,12 +28,13 @@ function App() {
                 id="home"
                 className="flex text-2xl md:text-3xl justify-center md:justify-start pt-4"
               >
-                <h2 className="font-bold">Character Sheet</h2>
+                <h2>Character Sheet</h2>
               </div>
               <div className="space-y-4 py-4">
                 <About></About>
                 <Stats></Stats>
                 <Experience></Experience>
+                <Projects></Projects>
                 <Contact></Contact>
               </div>
             </div>

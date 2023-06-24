@@ -16,7 +16,7 @@ export default function About() {
           </button>
           <div id="home" className="hover:animate-pulse flex text-xl">
             <p>[A]</p>
-            <p className="hover:animate-pulse text-[#DBBC7F]">bout</p>
+            <p className="hover:animate-pulse text-[#E69875]">bout</p>
           </div>
         </div>
         <div
@@ -24,7 +24,7 @@ export default function About() {
             (isFolded ? "hidden " : "") + "flex flex-col bg-[#272e33] mt-1"
           }
         >
-          <div className="m-2">
+          <div className="m-2 flex flex-col space-y-4 text-md md:text-lg">
             <p>
               My name is Phil Ganem and I'm a student software engineer,
               activist, and coffee snob based out of Rochester, New York. I am
@@ -36,6 +36,18 @@ export default function About() {
                 Rochester Institute of Technology
               </a>
               's five year software engineering BS program.
+            </p>
+            <p>
+              When I'm not working or studying, I typically find myself outside,
+              reading, playing videogames, making music, hanging out with my girlfriend, or
+              taking photos of{" "}
+              <a
+                href="/tan.jpeg"
+                className="text-[#D699b6] font-bold hover:opacity-50"
+              >
+                Tangerine the Crested Gecko
+              </a>
+              , my pet lizard.
             </p>
           </div>
         </div>
