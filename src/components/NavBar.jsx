@@ -23,7 +23,7 @@ export default function NavBar() {
           </a>
         </button>
         <button className="hover:animate-pulse flex">
-          <a href="#timeline" className="flex">
+          <a href="#experience" className="flex">
             <p>[E]</p>
             <li className="text-[#A7C080]">xperience</li>
           </a>
