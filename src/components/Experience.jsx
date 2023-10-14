@@ -38,7 +38,7 @@ export default function Experience() {
                 description={<p className="mb-3 text-[#414B50]"></p>}
               ></TimelineElement>
               <TimelineElement
-                date={"Jan 2023 - present"}
+                date={"Jan 2023 - Aug 2023"}
                 title={
                   <h4 className="mb-1.5 text-xl font-semibold">
                     Started my First University Co-op with{" "}
