@@ -1,5 +1,5 @@
 import NavBar from "./components/NavBar";
-import "./app.css";
+import "./App.css";
 import Heads from "./components/Heads";
 import Cmd from "./components/Cmd";
 import Experience from "./components/Experience";
