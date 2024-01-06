@@ -27,7 +27,7 @@ function App() {
               </div>
               <div className="space-y-4 py-4">
                 <About></About>
-                <Stats></Stats>
+                {/* <Stats></Stats> */}
                 <Experience></Experience>
                 <Projects></Projects>
                 <Contact></Contact>

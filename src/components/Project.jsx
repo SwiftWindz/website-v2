@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function Project(props) {
-  const [isFolded, setIsFolded] = useState(true);
+  const [isFolded, setIsFolded] = useState(false);
 
   const getTechElements = (tech) => {
     const elements = [];
@@ -37,7 +37,7 @@ export default function Project(props) {
           <div className="px-14">
             <p>Year: {props.year}</p>
             <p>Made for: {props.madeFor}</p>
-            <p className="mb-2 text-[#414B50] text-sm md:text-md">
+            <p className="mb-2 text-[#7e7e7e] text-sm md:text-md">
               {props.description}
             </p>
             <p>Tools:</p>

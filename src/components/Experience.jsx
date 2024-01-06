@@ -35,7 +35,14 @@ export default function Experience() {
                     Rochester Institute of Technology
                   </h4>
                 }
-                description={<p className="mb-3 text-[#414B50]"></p>}
+                description={
+                <p className="mb-3 text-[#7e7e7e]">
+                  My responsibilities as a course assistant were elevated to 
+                  include assisting in creating and proof reading course material,
+                  including exams and homeworks, and assisting and guiding ~30 other
+                  course assistants. At the time of my hire, I also assisted in creating 
+                  content for a new course at RIT, GCIS-127.
+                </p>}
               ></TimelineElement>
               <TimelineElement
                 date={"Jan 2023 - Aug 2023"}
@@ -51,12 +58,12 @@ export default function Experience() {
                   </h4>
                 }
                 description={
-                  <p className="mb-3 text-[#414B50]">
+                  <p className="mb-3 text-[#7e7e7e]">
                     For my first university co-op I was employed by Measures for
-                    Justice as a software engineer intern. The organisation was
-                    a local nonprofit that had nation reach. Their objective was
-                    to make criminal justice data more accessable and
-                    understandle.
+                    Justice as a software engineer intern. Measures for Justice is an organisation 
+                    who's goal is to make criminal justice data more accessable and
+                    understandable. My primary focus was maintaining their data pipeline through
+                    targeted code changes with the Kotlin programming language.
                   </p>
                 }
               ></TimelineElement>
@@ -69,10 +76,12 @@ export default function Experience() {
                   </h4>
                 }
                 description={
-                  <p className="mb-3 text-[#414B50]">
+                  <p className="mb-3 text-[#7e7e7e]">
                     Became employed by my university as an undergraduate
                     teaching assistant for the university intro programming
-                    courses, GCIS-123 and GCIS-124
+                    courses, GCIS-123 and GCIS-124. I directly assisted in class room 
+                    instruction through one-on-ones with students and by grading homework 
+                    assignments and exams.
                   </p>
                 }
               ></TimelineElement>
