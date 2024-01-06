@@ -11,10 +11,10 @@ export default function Cmd() {
         window.location.href = "#about";
         break;
       }
-      case "cd s": {
-        window.location.href = "#stats";
-        break;
-      }
+      // case "cd s": {
+      //   window.location.href = "#stats";
+      //   break;
+      // }
       case "cd e": {
         window.location.href = "#experience";
         break;
