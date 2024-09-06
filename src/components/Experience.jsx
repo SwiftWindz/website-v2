@@ -45,10 +45,10 @@ export default function Experience() {
                     For my second university co-op I was employed by Paychex as
                     a software engineer intern. Paychex is a company that
                     specializes in payroll and HR solutions. Over the course of
-                    my stay with Paychex, I had the privilage of working with
+                    my stay with Paychex, I had the privilege of working with
                     two fantastic agile teams specializing in DevOps and
                     internal software development. My personal focus was feature
-                    development and maintenence of testing and quality assurance
+                    development and maintenance of testing and quality assurance
                     software that services approximately 160 agile teams.
                   </p>
                 }
