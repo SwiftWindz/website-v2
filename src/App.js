@@ -5,7 +5,6 @@ import Cmd from "./components/Cmd";
 import Experience from "./components/Experience";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Stats from "./components/Stats";
 import Projects from "./components/Projects";
 
 function App() {
