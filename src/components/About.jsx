@@ -28,7 +28,7 @@ export default function About() {
             <p>
               My name is Phil Ganem and I'm a student software engineer,
               activist, and coffee snob based out of Rochester, New York. I am
-              currently in my third year of the{" "}
+              currently in my fifth year of the{" "}
               <a
                 href="https://www.rit.edu/"
                 className="text-[#D699b6] font-bold hover:opacity-50"
