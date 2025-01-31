@@ -67,7 +67,7 @@ export default function Projects() {
             ></Project>
             <Project
               title="Multi-User Dungeon"
-              description="Multi-User Dungeon, or MUD, is a 2D rogue-like game. Users could create and use accounts to save their progress. The game itself had two modes, endless and premade mode. In endless, players would navigate an endless procedural generated dungeon in search of loot to increase their profile score. They could quit and return at any time to the same map. In premade mode, players could choose from a list of premade dungeons with the ultimate goal of finding the goal room. Both modes had players fulfilling the aforementioned while encountering different enemies and obstacles."
+              description="Multi-User Dungeon, or MUD, is a 2D rogue-like game. Users could create and use accounts to save their progress. The game itself had two modes, endless and premade mode. In endless, players would navigate an endless procedural generated dungeon in search of loot to increase their profile score. They could quit and return at any time to the same map. In premade mode, players could choose from a list of premade dungeons with the ultimate goal of finding the goal room. Both modes had players fulfilling the aforementioned quest while encountering different enemies and obstacles."
               madeFor="RIT Course"
               year="2022"
               tech={["Java", "JavaFX", "JUnit", "PostgreSQL"]}
