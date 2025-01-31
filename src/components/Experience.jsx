@@ -89,7 +89,7 @@ export default function Experience() {
                   <p className="mb-3 text-[#7e7e7e]">
                     For my first university co-op I was employed by Measures for
                     Justice as a software engineer intern. Measures for Justice
-                    is an organisation who's goal is to make criminal justice
+                    is an organisation whose goal is to make criminal justice
                     data more accessable and understandable. My primary focus
                     was maintaining their data pipeline through targeted code
                     changes with the Kotlin programming language.
@@ -108,9 +108,9 @@ export default function Experience() {
                   <p className="mb-3 text-[#7e7e7e]">
                     Became employed by my university as an undergraduate
                     teaching assistant for the university intro programming
-                    courses, GCIS-123 and GCIS-124. I directly assisted in class
-                    room instruction through one-on-ones with students and by
-                    grading homework assignments and exams.
+                    courses, GCIS-123 and GCIS-124. I directly assisted in 
+                    classroom instruction through one-on-ones with students 
+                    and by grading homework assignments and exams.
                   </p>
                 }
               ></TimelineElement>
