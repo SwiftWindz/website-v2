@@ -16,12 +16,6 @@ export default function NavBar() {
             <li className="hover:animate-pulse text-[#E69875]">bout</li>
           </a>
         </button>
-        {/* <button className="hover:animate-pulse flex">
-          <a href="#stats" className="flex">
-            <p>[S]</p>
-            <li className="hover:animate-pulse text-[#DBBC7F]">tats</li>
-          </a>
-        </button> */}
         <button className="hover:animate-pulse flex">
           <a href="#experience" className="flex">
             <p>[E]</p>

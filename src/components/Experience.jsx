@@ -42,9 +42,10 @@ export default function Experience() {
                 }
                 description={
                   <p className="mb-3 text-[#7e7e7e]">
-                    I returned to Paychex as a part time software engineer after my second university co-op.
-                    I rejoined the same team I had worked with during my co-op, and continued to work on the same projects,
-                    while also taking on new responsibilities.
+                    I returned to Paychex as a part-time software
+                    engineer a few months after completing my second
+                    university co-op. Rejoining the same team, I continue
+                    to work on previous projects while also taking on new responsibilities.
                   </p>
                 }
             ></TimelineElement>
@@ -63,8 +64,9 @@ export default function Experience() {
                 }
                 description={
                   <p className="mb-3 text-[#7e7e7e]">
-                    Worked part time as a software engineer at Bryx, a company that specializes in providing technology solutions for emergency services.
-                    During my time at Bryx, I worked to help maintain and improve their cloud infrastructure.
+                    Worked part-time as a software engineer at Bryx, a company specializing in
+                    technology solutions for emergency services. Contributed to maintaining and
+                    enhancing their cloud infrastructure.
                   </p>
                 }
               ></TimelineElement>

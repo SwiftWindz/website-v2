@@ -26,7 +26,7 @@ export default function About() {
         >
           <div className="m-2 flex flex-col space-y-4 text-md md:text-lg">
             <p>
-              My name is Phil Ganem and I'm a student and part time software engineer,
+              My name is Phil Ganem and I'm a student, part time software engineer,
               activist, and coffee snob based out of Rochester, New York. I am
               currently in my fifth year of the{" "}
               <a
