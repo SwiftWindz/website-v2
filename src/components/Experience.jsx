@@ -100,8 +100,13 @@ export default function Experience() {
                 date={"Jun 2023 - Dec 2024"}
                 title={
                   <h4 className="mb-1.5 text-xl font-semibold">
-                    Promoted to Head Undergraduate Teaching Assistant at the
+                    Promoted to Head Undergraduate Teaching Assistant at the{" "}
+                    <a
+                      href="https://www.rit.edu/"
+                      className="text-[#D699b6] font-bold hover:opacity-50"
+                    >
                     Rochester Institute of Technology
+                    </a>
                   </h4>
                 }
                 description={
@@ -143,9 +148,14 @@ export default function Experience() {
                 date={"Aug 2021 - Dec 2022"}
                 title={
                   <h4 className="mb-1.5 text-xl font-semibold">
-                    Became an Undergraduate Teaching Assistant at the Rochester
-                    Institute of Technology
-                  </h4>
+                  Undergraduate Teaching Assistant at the{" "}
+                  <a
+                    href="https://www.rit.edu/"
+                    className="text-[#D699b6] font-bold hover:opacity-50"
+                  >
+                  Rochester Institute of Technology
+                  </a>
+                </h4>
                 }
                 description={
                   <p className="mb-3 text-[#7e7e7e]">
