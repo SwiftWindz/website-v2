@@ -31,7 +31,7 @@ export default function Experience() {
                 date={"Jan 2025 - present"}
                 title={
                   <h4 className="mb-1.5 text-xl font-semibold">
-                    Became a part time software engineer at{" "}
+                    Part Time Software Engineer at{" "}
                     <a
                       href="https://www.paychex.com/"
                       className="text-[#D699b6] font-bold hover:opacity-50"
@@ -53,7 +53,7 @@ export default function Experience() {
                 date={"Oct 2024 - Jan 2025"}
                 title={
                   <h4 className="mb-1.5 text-xl font-semibold">
-                    Became a part time software engineer at{" "}
+                    Part Time Software Engineer at{" "}
                     <a
                       href="https://bryx.com/"
                       className="text-[#D699b6] font-bold hover:opacity-50"
@@ -74,7 +74,7 @@ export default function Experience() {
                 date={"Jan 2024 - Aug 2024"}
                 title={
                   <h4 className="mb-1.5 text-xl font-semibold">
-                    Started my Second University Co-op with{" "}
+                    University Co-op with{" "}
                     <a
                       href="https://www.paychex.com/"
                       className="text-[#D699b6] font-bold hover:opacity-50"
@@ -119,7 +119,7 @@ export default function Experience() {
                 date={"Jan 2023 - Aug 2023"}
                 title={
                   <h4 className="mb-1.5 text-xl font-semibold">
-                    Started my First University Co-op with{" "}
+                    University Co-op with{" "}
                     <a
                       href="https://measuresforjustice.org/"
                       className="text-[#D699b6] font-bold hover:opacity-50"
