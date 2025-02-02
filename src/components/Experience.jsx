@@ -28,7 +28,7 @@ export default function Experience() {
           <div className="m-2">
             <ol class="border-l border-neutral-300 dark:border-neutral-500">
             <TimelineElement
-                date={"Oct 2024 - Jan 2025"}
+                date={"Jan 2025 - present"}
                 title={
                   <h4 className="mb-1.5 text-xl font-semibold">
                     Became a part time software engineer at{" "}
