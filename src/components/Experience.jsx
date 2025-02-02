@@ -27,6 +27,47 @@ export default function Experience() {
         >
           <div className="m-2">
             <ol class="border-l border-neutral-300 dark:border-neutral-500">
+            <TimelineElement
+                date={"Oct 2024 - Jan 2025"}
+                title={
+                  <h4 className="mb-1.5 text-xl font-semibold">
+                    Became a part time software engineer at{" "}
+                    <a
+                      href="https://www.paychex.com/"
+                      className="text-[#D699b6] font-bold hover:opacity-50"
+                    >
+                      Paychex
+                    </a>
+                  </h4>
+                }
+                description={
+                  <p className="mb-3 text-[#7e7e7e]">
+                    I returned to Paychex as a part time software engineer after my second university co-op.
+                    I rejoined the same team I had worked with during my co-op, and continued to work on the same projects,
+                    while also taking on new responsibilities.
+                  </p>
+                }
+            ></TimelineElement>
+            <TimelineElement
+                date={"Oct 2024 - Jan 2025"}
+                title={
+                  <h4 className="mb-1.5 text-xl font-semibold">
+                    Became a part time software engineer at{" "}
+                    <a
+                      href="https://bryx.com/"
+                      className="text-[#D699b6] font-bold hover:opacity-50"
+                    >
+                      Bryx
+                    </a>
+                  </h4>
+                }
+                description={
+                  <p className="mb-3 text-[#7e7e7e]">
+                    Worked part time as a software engineer at Bryx, a company that specializes in providing technology solutions for emergency services.
+                    During my time at Bryx, I worked to help maintain and improve their cloud infrastructure.
+                  </p>
+                }
+              ></TimelineElement>
               <TimelineElement
                 date={"Jan 2024 - Aug 2024"}
                 title={
@@ -54,7 +95,7 @@ export default function Experience() {
                 }
               ></TimelineElement>
               <TimelineElement
-                date={"Jun 2023 - present"}
+                date={"Jun 2023 - Dec 2024"}
                 title={
                   <h4 className="mb-1.5 text-xl font-semibold">
                     Promoted to Head Undergraduate Teaching Assistant at the
