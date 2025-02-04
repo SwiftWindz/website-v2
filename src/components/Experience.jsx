@@ -26,7 +26,7 @@ export default function Experience() {
           }
         >
           <div className="m-2">
-            <ol class="border-l border-neutral-300 dark:border-neutral-500">
+            <ol className="border-l border-neutral-300 dark:border-neutral-500">
             <TimelineElement
                 date={"Jan 2025 - present"}
                 title={
@@ -41,7 +41,7 @@ export default function Experience() {
                   </h4>
                 }
                 description={
-                  <p className="mb-3 text-[#7e7e7e]">
+                  <p className="mb-3 text-[#B8B8B8]">
                     I returned to Paychex as a part-time software
                     engineer a few months after completing my second
                     university co-op. Rejoining the same team, I continue
@@ -63,7 +63,7 @@ export default function Experience() {
                   </h4>
                 }
                 description={
-                  <p className="mb-3 text-[#7e7e7e]">
+                  <p className="mb-3 text-[#B8B8B8]">
                     Worked part-time as a software engineer at Bryx, a company specializing in
                     technology solutions for emergency services. Contributed to maintaining and
                     enhancing their cloud infrastructure.
@@ -84,7 +84,7 @@ export default function Experience() {
                   </h4>
                 }
                 description={
-                  <p className="mb-3 text-[#7e7e7e]">
+                  <p className="mb-3 text-[#B8B8B8]">
                     For my second university co-op I was employed by Paychex as
                     a software engineer intern. Paychex is a company that
                     specializes in payroll and HR solutions. Over the course of
@@ -110,7 +110,7 @@ export default function Experience() {
                   </h4>
                 }
                 description={
-                  <p className="mb-3 text-[#7e7e7e]">
+                  <p className="mb-3 text-[#B8B8B8]">
                     My responsibilities as a course assistant were elevated to
                     include assisting in creating and proof reading course
                     material, including exams and homeworks, and assisting and
@@ -134,7 +134,7 @@ export default function Experience() {
                   </h4>
                 }
                 description={
-                  <p className="mb-3 text-[#7e7e7e]">
+                  <p className="mb-3 text-[#B8B8B8]">
                     For my first university co-op I was employed by Measures for
                     Justice as a software engineer intern. Measures for Justice
                     is an organisation whose goal is to make criminal justice
@@ -158,7 +158,7 @@ export default function Experience() {
                 </h4>
                 }
                 description={
-                  <p className="mb-3 text-[#7e7e7e]">
+                  <p className="mb-3 text-[#B8B8B8]">
                     Became employed by my university as an undergraduate
                     teaching assistant for the university intro programming
                     courses, GCIS-123 and GCIS-124. I directly assisted in 

@@ -1,7 +1,6 @@
 import NavBar from "./components/NavBar";
 import "./App.css";
 import Heads from "./components/Heads";
-import Cmd from "./components/Cmd";
 import Experience from "./components/Experience";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -33,9 +32,6 @@ function App() {
             </div>
           </div>
         </body>
-        <div className="fixed bottom-0 w-full">
-          <Cmd></Cmd>
-        </div>
       </div>
     </div>
   );

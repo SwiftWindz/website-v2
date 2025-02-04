@@ -26,7 +26,7 @@ export default function Projects() {
             "flex flex-col bg-[#272e33] mt-1 w-full"
           }
         >
-          <div className="m-2 space-y-2">
+          <div className="my-2 mx-2 space-y-8">
             <Project
               title="Personal Website Version 2"
               description=""
